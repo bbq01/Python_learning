@@ -1,0 +1,19 @@
+# Introduction to Linked Lists
+
+A linked list is a data structure that consists of a sequence of elements, each containing a reference to the next element in the sequence. This allows for efficient insertion and removal of elements from any position in the sequence.
+
+## Key Concepts
+- Nodes: Each element of a linked list is called a node.
+- Pointers: Each node contains a reference (or pointer) to the next node.
+
+### Example
+```python
+class Node:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+
+class LinkedList:
+    def __init__(self):
+        self.head = None
+```
